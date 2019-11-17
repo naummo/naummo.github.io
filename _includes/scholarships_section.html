@@ -1,0 +1,40 @@
+<!-- Start scholarships -->
+<section class="full-page clearfix" id="scholarships">
+    <div class="experiences">
+        <div class="container-fluid">
+            <div class="experiences-wrapper text-center">
+                <div class="section-title">
+                    <div class="border-center"></div>
+                    <h2>Scholarships</h2>
+                    <div class="border-center"></div>
+                </div>
+                <div class="work-history">
+                    <div class="row">
+                        <div class="col-md-8 col-sm-12" style="margin: auto">
+                            <div class="work-history-wrapper wow fadeIn">
+                                <table>
+                                    {% for scholarships_info in site.data.scholarships %}
+                                    <tr>
+                                        <td style="font-size: 40px; vertical-align: top;">
+                                            <i class="fa {{scholarships_info.icon}}" aria-hidden="true"></i>
+                                        </td>
+                                        <td style="
+                                            text-align: left; 
+                                            padding-left: 30px; 
+                                            padding-top: 5px;">
+                                            <h4>{{scholarships_info.title}}</h4>
+                                            <span style="margin-bottom: 5px"><i>{{scholarships_info.when_where}}</i></span>
+                                            <p style="padding-bottom: 20px">{{scholarships_info.desc}}</p>
+                                        </td>
+                                    </tr>
+                                    {% endfor %}
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End scholarships -->

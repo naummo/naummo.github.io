@@ -1,0 +1,28 @@
+<!-- Start Teaching -->
+<section class="full-page clearfix" id="teaching">
+    <div class="experiences">
+        <div class="container-fluid">
+            <div class="experiences-wrapper text-center">
+                <div class="section-title">
+                    <div class="border-center"></div>
+                    <h2>Teaching</h2>
+                    <div class="border-center"></div>
+                </div>
+                <div class="experiences-info">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12" style="margin: auto">
+                            <div class="experiences-info-wrapper wow fadeIn">
+                                {% for exp_data in site.data.teaching %}
+                                    <b>{{exp_data.title}} ({{exp_data.year}})</b>
+                                    <p style="padding-right: 0px">{{exp_data.desc}}</p>
+                                    <br>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Teaching -->

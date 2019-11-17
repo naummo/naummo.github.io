@@ -37,9 +37,6 @@
             flex: 0 0 100%; 
      max-width: 100%;
 }
-#about {
-    background-size: 100%;
-}
 .about-content {
     padding-bottom: 50px;
 }
@@ -47,9 +44,9 @@
     background-size: 85%;
 }
 .themeix-aside {
-    width: 200px;
+    width: 300px;
     z-index: 111;
-    left: -145px;
+    left: -300px;
     -webkit-transition:1s all;
     transition: 1s all;
 }
@@ -88,9 +85,6 @@
 }
 .contact-form h3 {
     width: 100%;
-}
-.experiences-info-wrapper .experiences-datetime {
-    display: none;
 }
 .experiences-info-wrapper p {
     margin: 0px;
@@ -150,9 +144,9 @@
     background-size: 85%;
 }
 .themeix-aside {
-    width: 200px;
+    width: 300px;
     z-index: 111;
-    left: -145px;
+    left: -300px;
     -webkit-transition:1s all;
     transition: 1s all;
 }

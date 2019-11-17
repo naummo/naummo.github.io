@@ -1,0 +1,32 @@
+<!-- Start Awards -->
+<section class="full-page clearfix" id="awards">
+    <div class="experiences">
+        <div class="container-fluid">
+            <div class="experiences-wrapper text-center">
+                <div class="section-title">
+                    <div class="border-center"></div>
+                    <h2>Awards</h2>
+                    <div class="border-center"></div>
+                </div>
+                <div class="work-history">
+                    <div class="row">
+                        {% for awards_info in site.data.awards %}
+                        <div class="col-md-3 col-sm-12">
+                            <div class="work-history-wrapper wow fadeIn">
+                                <div class="work-history-img">
+                                    <!-- <img src="{{site.baseurl}}/{{awards_info.logo}}" alt="{{awards_info.url}}"/> -->
+                                    <i class="fa {{awards_info.icon}}" aria-hidden="true"></i>
+                                </div>
+                                <h4>{{awards_info.title}}</h4>
+                                <span><i>{{awards_info.when_where}}</i></span>
+                                <p>{{awards_info.desc}}</p>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Awards -->

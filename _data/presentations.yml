@@ -1,0 +1,35 @@
+- when_where: Sep 2019
+  type: Talk
+  title: Functional Interface for Performance Portability on Parallel Accelerators
+  icon: fa-comment
+  desc: "ARM Research Summit: \"Renegotiating Accelerator Abstractions (Post-Moore's Law)\" workshop. Austin, Texas, USA"
+
+- when_where: Jan 2019
+  type: Talk
+  title: Towards Mapping Lift to Deep Neural Network Accelerators
+  icon: fa-comment
+  desc: Workshop on Emerging Deep Learning Accelerators (HiPEAC), Valencia, Spain
+  
+- when_where: Apr 2018
+  type: Tutorial
+  title: "Lift: Performance Stencil Code Generation with Lift"
+  icon: fa-comment
+  desc: International Symposium on Performance Analysis of Systems and Software (ISPASS), Belfast, UK
+  
+- when_where: Dec 2017
+  type: Poster
+  title: Optimisation of Neural Computations Using a Functional Data-Parallel Language
+  icon: fa-sticky-note
+  desc: Google PhD Summit, Munich, Germany
+  
+- when_where: Oct 2017
+  type: Invited talk
+  title: Computational Optimisation of CNNs Using a Functional Data-Parallel Language
+  icon: fa-comment
+  desc: Glasgow Systems Seminar, University of Glasgow, UK
+  
+- when_where: Jun 2017
+  type: Poster
+  title: Optimisation of Neural Computations Using a Functional Data-Parallel Language
+  icon: fa-sticky-note
+  desc: The Scottish Informatics and Computer Science Alliance, University of Dundee, UK

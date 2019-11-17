@@ -43,6 +43,11 @@ span {
 	color:#0e0e0e;
 	font-family: 'Montserrat', sans-serif;
 }
+h4 > span {
+    font-weight:inherit;
+    color:inherit;
+    font-family: inherit;
+}
 a:hover,
 a:active,
 a:focus {
@@ -338,7 +343,7 @@ object {
 .themeix-aside {
     position: fixed;
     height: 100%;
-    width: 325px;
+    width: 300px;
     left: 0px;
     background: #0e0e0e;
     top: 0px;
@@ -378,7 +383,7 @@ object {
 	margin-bottom:4px;
 }
 .themeix-main-content {
-    width: calc(100% - 325px);
+    width: calc(100% - 300px);
     -webkit-transition: all 0.5s ease-in-out 0s;
     transition: all 0.5s ease-in-out 0s;
 	float:right
@@ -404,7 +409,7 @@ object {
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
     background: #f0f0f0;
-    padding: 25px 20px;
+    padding: 16px 20px;
 	text-transform:uppercase;
 }
 .themeix-nav-menu li a:before {
@@ -439,9 +444,6 @@ object {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
-.themeix-nav-menu li:nth-child(odd) a{
-    border-bottom: 1px solid #abaaaa;
-}
 .themeix-nav-menu li:last-child a{
     border-bottom: 0;
 }
@@ -449,6 +451,20 @@ object {
 	background:#0e0e0e;
 	border-color:#0e0e0e;
 	color:#ffffff;
+}
+.themeix-nav-menu li a span{
+    display: inline-block;
+    width: 25px;
+    top: 4px;
+    margin-right: 15px;
+    text-align: center;
+}
+.themeix-nav-menu li a span .fa{
+    width: 15px;
+    height: 15px;
+}
+.themeix-nav-menu li a span .fa-graduation-cap{
+    margin-left: -2px;
 }
 .themeix-nav-menu li a .icon-about{
     background-image: url(../images/themeix-icon-about.png);
@@ -643,11 +659,11 @@ object {
 }
 #about{
     background-color: #E9E8E6;
-    background-image: url(../images/bg-img.jpg);
-    background-repeat: no-repeat;
-    background-size: 80%;
-    background-position:right top;
+    background-image: url(../images/scotland.jpg);
+    background-size: auto 1600px;
+    background-position: -150px 0px;
     background-attachment: fixed;
+    min-height: 100vh;
 }
 .about-content{
 	padding-bottom:150px;
@@ -666,6 +682,9 @@ object {
 }
 .about-content span {
     font-size: 56px;
+}
+.about-content h4 > span {
+    font-size: inherit;
 }
 .about-content .home-social-share{
 	margin-bottom:0px;
@@ -840,10 +859,10 @@ object {
     padding: 70px 30px 40px;
     margin-bottom: 30px;
     position: relative;
-    cursor: pointer;
     -webkit-transition: 0.5s all;
     transition: 0.5s all;
 	margin-top:45px;
+    height: 80%;
 }
 .services-wrapper h2{
 	text-transform:uppercase;
@@ -1001,7 +1020,7 @@ object {
 	z-index:2;
 	text-align:left;
 	margin-bottom:40px;
-	
+	height: 87%;
 }
 .experiences-info .col-md-6{
 	padding-right:30px;
@@ -1042,8 +1061,7 @@ object {
 	padding-right:70px;
 }
 .work-history-wrapper{
-    border: 2px solid #cccccc;
-    padding: 30px;
+    padding: 0 30px 30px 30px;
 }
 .work-history-wrapper span{
     margin-bottom:20px;
@@ -1053,7 +1071,8 @@ object {
     margin:0;
 }
 .work-history-img{
-	margin-bottom:10px;
+    margin-bottom:10px;
+    font-size: 40px;
 }
 .work-history-img img{
 	max-width:100%;
@@ -1264,7 +1283,6 @@ object {
 .contact{
 	background-color:#ffffff;
 	position:relative;
-	background-image:url(../images/contact-bg.png);
 	background-position:right top;
 	background-repeat:no-repeat;
 	
@@ -1312,6 +1330,7 @@ object {
     width: 90px;
     height: 90px;
     position: absolute;
+    font-size: 40px;
     left: 0;
     right: 0;
     margin: auto;
@@ -1391,7 +1410,7 @@ object {
   text-indent: 100%;
   white-space: nowrap;
   background-image: url('../images/up-arrow-angle.png');
-  background-color:#ff0000;
+  background-color:#FF5722;
   background-repeat:no-repeat;
   background-size:20px 20px;
   background-position:center;
@@ -1439,5 +1458,9 @@ object {
 }
 
 .services-box-logo img {
-    padding-top:15px;
+    margin-left: -3px;
+}
+.profile-img {
+    height: calc(100% - 150px);
+    white-space: nowrap;
 }

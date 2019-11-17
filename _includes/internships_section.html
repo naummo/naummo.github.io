@@ -1,0 +1,34 @@
+<!-- Start Internships -->
+<section class="full-page clearfix" id="internships">
+    <div class="services">
+        <div class="container-fluid">
+            <div class="services-wrapper text-center">
+                <div class="section-title">
+                    <div class="border-center"></div>
+                    <h2>Research Internships & Collaborations</h2>
+                    <div class="border-center"></div>
+                </div>
+                <div class="row">
+                    {% for exp_data in site.data.internships %}
+                    <div class="col-md-6 col-sm-12">
+                        <div class="services-box wow fadeIn text-center">
+                            <div class="services-box-logo">
+                                <span style="display: inline-block; vertical-align: middle;height: 100%;"></span>
+                                <img src="{{site.baseurl}}/{{exp_data.icon}}"/>
+                            </div>
+                            <h5>{{exp_data.title}}</h5>
+                            <span><i>{{exp_data.company}}</i></span>
+                            <p><i>{{exp_data.year}}</i></p>
+                            <p>{{exp_data.desc}}</p>
+                        </div>
+                     </div>
+                    {% endfor %}
+                  </div>
+                <!-- <div class="project-promo">
+                    {% include project_promotions.html %}
+                </div> -->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Internships -->

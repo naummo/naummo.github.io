@@ -1,0 +1,29 @@
+<!-- Start scholarships -->
+<section class="full-page clearfix" id="presentations">
+    <div class="experiences">
+        <div class="container-fluid">
+            <div class="experiences-wrapper text-center">
+                <div class="section-title">
+                    <div class="border-center"></div>
+                    <h2>Presentations</h2>
+                    <div class="border-center"></div>
+                </div>
+                <div class="work-history">
+                    <div class="row">
+                        <div class="col-md-10 col-sm-12" style="margin: auto">
+                                <div class="experiences-info-wrapper wow fadeIn">
+                                    {% for presentations_info in site.data.presentations %}
+                                        {{presentations_info.type}} ({{presentations_info.when_where}}): <b>{{presentations_info.title}}</b>
+                                        <p style="padding-right: 0px"><i>{{presentations_info.desc}}</i></p>
+                                        <br>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End scholarships -->

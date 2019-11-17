@@ -1,0 +1,19 @@
+- title: ARM Research Summit
+  where_when: September 2019, ARM, Austin
+  desc: Gave a talk on functional interfaces as a good match for the abstraction between a wide range of applications and hardware accelerators. Attended a great set of keynotes, talks and panel discussions.
+  icon: assets/images/arm.png
+
+- title: Google PhD Summit
+  where_when: December 2017, Google Munich
+  desc: I presented a poster on my research project and participated in the round tables where Google engineers shared highlights of Google’s latest research in the area of programming language implementation and how this research is applied to compilers and language tooling at Google.
+  icon: assets/images/google.png
+
+- title: Google Inside Look
+  where_when: August 2017, Google London
+  desc: Selected by Google for their exclusive Inside Look Program, offering top Technical students a fully sponsored two day program of tech talks, workshops, and other technical development content. Awarded to only 31 students out of thousands of applicants from Europe, Middle East and Africa.
+  icon: assets/images/google.png
+
+- title: Facebook PhD London Tech Talk
+  where_when: October 2018, Facebook London
+  desc: Selected by Facebook for a PhD Open House event for a talk and panel about research at Facebook.
+  icon: assets/images/facebook.png

@@ -1,0 +1,33 @@
+<!-- Start Events -->
+<section class="full-page clearfix" id="events">
+    <div class="services">
+        <div class="container-fluid">
+            <div class="services-wrapper text-center">
+                <div class="section-title">
+                    <div class="border-center"></div>
+                    <h2>Attended Academic Events</h2>
+                    <div class="border-center"></div>
+                </div>
+                <div class="row">
+                    {% for event_data in site.data.events %}
+                    <div class="col-md-6 col-sm-12">
+                        <div class="services-box wow fadeIn text-center">
+                            <div class="services-box-logo">
+                                <span style="display: inline-block; vertical-align: middle;height: 100%;"></span>
+                                <img src="{{site.baseurl}}/{{event_data.icon}}"/>
+                            </div>
+                            <h5>{{event_data.title}}</h5>
+                            <p><i>{{event_data.where_when}}</i></p>
+                            <p>{{event_data.desc}}</p>
+                        </div>
+                     </div>
+                    {% endfor %}
+                  </div>
+                <!-- <div class="project-promo">
+                    {% include project_promotions.html %}
+                </div> -->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Events -->
