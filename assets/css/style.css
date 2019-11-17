@@ -1166,6 +1166,20 @@ object {
 	background-color:#f4f2f2;
 	margin-bottom:30px;
 }
+.single-blog-wrapper::before, .single-blog-wrapper::after{
+    content:"";
+    width: 0;
+    height: 2px;
+    position: absolute;
+    transition: all 0.2s linear;
+    background: #000000;
+}
+.single-blog-wrapper:hover::before, .single-blog-wrapper:hover::after{
+    width: 100%;
+}
+.single-blog-wrapper:hover::before, .single-blog-wrapper:hover::after{
+    transition-delay: 0.2s;
+}
 .single-blog-content{
 	padding:30px;
 }
