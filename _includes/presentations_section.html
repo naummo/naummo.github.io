@@ -13,7 +13,8 @@
                         <div class="col-md-10 col-sm-12" style="margin: auto">
                                 <div class="experiences-info-wrapper wow fadeIn">
                                     {% for presentations_info in site.data.presentations %}
-                                        {{presentations_info.type}} ({{presentations_info.when_where}}): <b>{{presentations_info.title}}</b>
+                                        {{presentations_info.type}} ({{presentations_info.when_where}}): <b>{{presentations_info.title}}</b> 
+                                            <b><u>{{presentations_info.link}}</u></b>
                                         <p style="padding-right: 0px"><i>{{presentations_info.desc}}</i></p>
                                         <br>
                                     {% endfor %}

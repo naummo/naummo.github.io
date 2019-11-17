@@ -2,7 +2,7 @@
 layout: post
 title: "Millenium Falcon Model"
 image: /assets/images/millenium_collage.jpg
-post_id: 1
+post_id: 3
 resources:
 ---
 <p>Completed a 1/72 model of Millenium Falcon consisting of 904 pieces. Gosh, what a pleasure that was!</p>
