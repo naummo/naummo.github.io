@@ -17,4 +17,4 @@ resources:
 <p><ul>
 <li><u><a href="https://youtu.be/9rpAbpEsXrg" target="blank">YouTube video: demo recording</a></u></li>
 </ul></p>
-<p><img src="/assets/images/metallic_checkers.jpg"></p>
+<p><img data-src="/assets/images/metallic_checkers.jpg" class="lazyload"></p>

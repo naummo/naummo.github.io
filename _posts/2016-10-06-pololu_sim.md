@@ -10,4 +10,4 @@ resources:
 <p><ul>
 <li><u><a href="https://youtu.be/pkLsCqnddj8">YouTube demo</a></u></li>
 </ul></p>
-<p><img src="/assets/images/simulation.jpg"></p>
+<p><img data-src="/assets/images/simulation.jpg" class="lazyload"></p>
