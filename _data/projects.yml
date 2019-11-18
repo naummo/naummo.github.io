@@ -1,0 +1,123 @@
+- title: Pololu 3pi robot simulation
+  image: /assets/images/simulation.jpg
+  resources:
+  content: >-
+<p>A Matlab simulation, which interacts with robot's C program by feeding it sensor readings in exchange for motor commands.</p>
+<p>Bachelor's course, the University of York, 2013. </p>
+<p><ul>
+<li><u><a href="https://youtu.be/pkLsCqnddj8">YouTube demo</a></u></li>
+</ul></p>
+<p><img data-src="/assets/images/simulation.jpg" class="lazyload"></p>
+
+- title: 3D-printed sculpture
+  image: /assets/images/3dmodel_thumb.jpg
+  resources:
+  content: >-
+<p>A 3D-printed model designed in Blender.</p>
+<p><img data-src="/assets/images/3dmodel.jpg" class="lazyload"></p>
+
+- title: Raspberry Pi project
+  image: /assets/images/metallic_checkers_thumb.jpg
+  resources:
+  content: >-
+<p>I participated in the York Raspberry Jam & Maker Event at the National STEM Centre. Together with other CS students we presented our raspberry projects, which we delivered for the "Raspberry Pi in the classroom" event -- the idea was to design projects which could be repeated in schools with children learning to use Scratch on the Pi.</p>
+
+<p>The video above is a demo of my project called "Magnetic checkers" - the goal was to move metallic checker pieces around the field using an electromagnet. The machine ended up resembling a simple 3D printer: 3 stepper motors, one moving base in axis X, two moving the head (magnet) in Y and Z axes. Software allows user to control machine manually and give simple tasks for automatic control (i.e. "move piece from A2 to E7").</p>
+
+<p>Software: Scratch for high-level control, Python for sending high-frequency PWM signal to GPIO pins.</p>
+
+<p>Hardware: Meccano structural parts, x3 NEMA 17 motors, x3 A4988 Pololu drivers, 12V 6W electromanget, Raspberry Pi, 3 PSUs.</p>
+
+<p>York, 2014.</p>
+<p><ul>
+<li><u><a href="https://youtu.be/9rpAbpEsXrg" target="blank">YouTube video: demo recording</a></u></li>
+</ul></p>
+<p><img data-src="/assets/images/metallic_checkers.jpg" class="lazyload"></p>
+
+- title: Simulated Baxter robot
+  image: /assets/images/baxter_cropped_compressed.jpg
+  resources:
+  content: >-
+<p>This is a V-Rep 3D simulation of Baxter robot reaching targets and comfortable poses from different initial positions.</p>
+<p>Produced as a part of a homework assignment for the Robot Learning & Sensorimotor Control course at the University of Edinburgh.</p>
+<p>Master's, the University of Edinburgh 2016.</p>
+<p><ul>
+<li><u><a href="https://youtu.be/0AZWgNWbaDM" target="blank">YouTube video: demo</a></u></li>
+</ul></p>
+<p><img data-src="/assets/images/baxter_cropped_compressed.jpg" class="lazyload"></p>
+
+- title: GPU-accelerated ant colony with neural nets
+  image: /assets/images/ant_colony.png
+  resources:
+  content: >-
+<p><img data-src="/assets/images/ant_colony.png" class="lazyload"></p>
+
+<p>This is my diploma project called "A GPU-Accelerated stigmergic BCMM swarm". In short, it is a Python maze solver, that simulates a swarm on GPU using OpenCL. Swarm agents use neural networks to navigate in an unknown environment.</p>
+
+<p>The project was developed using Python 3.4.2, OpenCL 1.2 (the code should be 1.0-compatible), PyOpenCL, Pygame, Numpy and FFmpeg. The platform is 64-bit Windows 7 and AMD Radeon HD 7870. </p>
+<p>Bachelor's, the University of York, 2015.</p>
+<hr>
+<ul>
+<li><u><a href="https://www.youtube.com/watch?v=HpRFR8ApPjU" target="blank">YouTube demo: small maze</a></u></li>
+<li><u><a href="https://www.youtube.com/watch?v=5vmqxHJ6SdQ" target="blank">YouTube demo: large maze</a></u></li>
+<li><u><a href="https://github.com/naummo/swarm_maze_opencl_solver" target="blank">Source code on GitHub</a></u></li>
+<li><u><a href="https://github.com/naummo/swarm_maze_opencl_solver/raw/master/Report_extract.pdf" target="blank">Report extract (PDF)</a></u></li>
+<li><u><a href="https://youtu.be/8_j-whYLgbw" target="blank">YouTube demo: flock simulation</a></u></li>
+<li><u><a href="https://github.com/naummo/swarm_maze_opencl_solver/blob/master/demo.png?raw=true" target="blank">Simulator interface (PNG)</a></u></li>
+</ul>
+
+- title: "Auto-aiming catapult"
+  image: /assets/images/catapult_thumb.jpg
+  resources: "<ul><li><u><a href=\"https://youtu.be/bXrTxzOwLzE\">YouTube video: an animated render of the 3D model</a></u></li></ul>"
+  content: >-
+<p>In 2016, I organized a workshop in a scientific summer school, where we built four auto-aiming catapults with a group of 16 years-old students.</p>
+<p>The catapults are based on Arduino Uno, Tamiya Twin-Motor Gear Boxes and HC-SR04 ultrasonic sensor; the frame is made of plywood.</p>
+<p>The goal of the workshop was to learn how to operate the wood workshop tools, and learn the mechanisms of motors, microcontrollers and ultrasonic sensors.</p>
+<p><img data-src="/assets/images/catapult_3D.jpg" class="lazyload" alt="catapult_3d"></p>
+
+- title: Pololu 3pi robot
+  image: /assets/images/3pi-robot-expansion-kit-4-500x500.jpg
+  resources:
+  content: >-
+<p>Robotics project completed in the second year of the Bachelor's course, University of York, 2013. </p>
+<p>The group assessment was to program the Mbed microcontroller so that robot can follow a wall and avoid obstacles using IR proximity sensors, follow a line using bottom illuminance sensors and navigate on a floor using USB optical mouse tail.</p>
+<p>Image source: <u><a href="https://www.hobbytronics.co.uk/" target="blank">www.hobbytronics.co.uk</a></u></p>
+<hr>
+<ul>
+<li><u><a href="https://youtu.be/sNBQjjwF4Q0">YouTube video: demo recording</a></u></li>
+<li><u><a href="https://www.youtube.com/watch?v=pkLsCqnddj8">YouTube video: robot simulation</a></u></li>
+</ul>
+<p><img data-src="/assets/images/3pi-robot-expansion-kit-4-500x500.jpg" class="lazyload"></p>
+
+- title: "Millenium Falcon Model"
+  image: /assets/images/millenium_collage.jpg
+  resources:
+  content: >-
+<p>Completed a 1/72 model of Millenium Falcon consisting of 904 pieces. Gosh, what a pleasure that was!</p>
+<p>More close-ups in <u><a href="https://photos.app.goo.gl/yGtdpnp8jxMalVWB3">Google Photos</a></u>.</p>
+<p><img data-src="/assets/images/millenium-closeUp.jpg" class="lazyload" width="500" height="375"></p>
+<p><img data-src="/assets/images/millenium_collage.jpg" class="lazyload" alt="Millenium Falcon model"></p>
+
+- title: "Research poster #1"
+  image: /assets/images/Naums_Mogers_Research_Poster_thumb.jpg
+  resources: <ul><li><u><a href="/assets/other/Naums_Mogers_Research_Poster.pdf">PDF poster (1.3 MB)</a></u></li></ul>
+  content: >-
+<a href="/assets/other/Naums_Mogers_Research_Poster.pdf"><img data-src="/assets/images/Naums_Mogers_Research_Poster.png" class="lazyload" alt="PPar 2016 poster"></a>
+<p> 
+Poster for the 2016 EPSRC CDT PPar & CDT HiPEDS Industrial Engagement Event.</p>
+
+- title: "Research poster #2"
+  image: /assets/images/MogersPPar2017Poster_thumb.jpg
+  resources: <ul><li><u><a href="/assets/images/MogersPPar2017Poster.png">PNG poster (2.2 MB)</a></u></li></ul>
+  content: >-
+<a href="/assets/images/MogersPPar2017Poster.png"><img data-src="/assets/images/MogersPPar2017Poster_ld.jpg" class="lazyload" alt="PPar 2017 poster"></a>
+<p> 
+Poster for the 2017 CDT Pervasive Parallism Student Showcase event.</p>
+
+- title: "Research poster #3"
+  image: /assets/images/hipeac_poster_naums_mogers_thumb.jpg
+  resources: <ul><li><u><a href="/assets/other/hipeac_poster_naums_mogers.pdf">PDF poster (1 MB)</a></u></li></ul>
+  content: >-
+<a href="/assets/other/hipeac_poster_naums_mogers.pdf"><img data-src="/assets/images/hipeac_poster_naums_mogers.jpg" class="lazyload" alt="HiPEAC 2019 poster"></a>
+<p>
+Poster: <b>Towards Mapping Lift to Deep Neural Network Accelerators</b> presented at <a href="https://www.hipeac.net/2019/valencia/">HiPEAC 2019 conference</a>. Valencia, Spain.</p>
