@@ -16,7 +16,6 @@
                     </div>
                     <div class="single-blog-content">
                         <a href="#" data-toggle="modal" data-target="#blog_details-{{post.post_id}}"><h5>{{post.title}}</h5></a>
-                        <!-- <span>posted {{post.date | date_to_string}}</span> -->
                         <p><a href="#" data-toggle="modal" data-target="#blog_details-{{post.post_id}}">{{ post.excerpt | strip_html | truncatewords: 18 }}</a></p>
 
                         <div class="modal fade" id="blog_details-{{post.post_id}}">
