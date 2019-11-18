@@ -12,13 +12,13 @@
                 {% for project in site.data.projects %}
                 <div class="single-blog-wrapper wow fadeIn text-left">
                     <div class="single-blog-img">
-                        <a href="#" data-toggle="modal" data-target="#blog_details-{{project.post_id}}"><img src="{{project.image}}" alt="{{project.title}}"/></a>
+                        <a href="#" data-toggle="modal" data-target="#blog_details-{{project.id}}"><img src="{{project.image}}" alt="{{project.title}}"/></a>
                     </div>
                     <div class="single-blog-content">
-                        <a href="#" data-toggle="modal" data-target="#blog_details-{{project.post_id}}"><b>{{project.title}}</b></a>
-                        <p><a href="#" data-toggle="modal" data-target="#blog_details-{{project.post_id}}">{{ project.content | strip_html | truncatewords: 18 }}</a></p>
+                        <a href="#" data-toggle="modal" data-target="#blog_details-{{project.id}}"><b>{{project.title}}</b></a>
+                        <p><a href="#" data-toggle="modal" data-target="#blog_details-{{project.id}}">{{ project.content | strip_html | truncatewords: 18 }}</a></p>
 
-                        <div class="modal fade" id="blog_details-{{project.post_id}}">
+                        <div class="modal fade" id="blog_details-{{project.id}}">
                             <div class="modal-dialog modal-lg">
                                 <div class="modal-content">
                                     <div class="modal-header">
