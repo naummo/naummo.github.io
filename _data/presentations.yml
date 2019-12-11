@@ -1,3 +1,10 @@
+- when_where: Dec 2019
+  type: Poster
+  title: Accelerator Design Optimisation Using a Functional Data-Parallel Language
+  icon: fa-sticky-note
+  desc: Google Compiler and Programming Language Summit 2019, Munich, Germany
+  link: <a href="/assets/other/Naums_Mogers_Research_Poster.pdf">(PDF)</a>
+
 - when_where: Sep 2019
   type: Talk
   title: Functional Interface for Performance Portability on Parallel Accelerators
@@ -23,7 +30,7 @@
   type: Poster
   title: Optimisation of Neural Computations Using a Functional Data-Parallel Language
   icon: fa-sticky-note
-  desc: Google PhD Summit, Munich, Germany
+  desc: Google Compiler and Programming Language Summit 2017, Munich, Germany
   link: <a href="/assets/other/Naums_Mogers_Research_Poster.pdf">(PDF)</a>
   
 - when_where: Oct 2017

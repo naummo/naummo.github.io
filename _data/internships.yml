@@ -1,7 +1,7 @@
 - title: Research Intern
   year: Sep 2019 - Nov 2019
-  company: "ARM, Cambridge"
-  desc: As an intern at the Architecture Research Group at ARM, I focus on extending the intermediate representation and the compiler stack for post-Moore's Law hardware accelerators.
+  company: "ARM Research, Cambridge"
+  desc: My project while at the ARM Architecture Research group is focused on using rewriting compilation to generate optimal hardware accelerator designs for a given application such as LSTM. To this end, I extended the intermediate representation and the compiler of the Lift compiler to generate HDL descriptions in the Spatial language.
   icon: assets/images/arm.png
 
 - title: Research Intern
