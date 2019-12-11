@@ -655,7 +655,8 @@ object {
 }
 /* 2.1 about me */
 .section-title{
-	margin-bottom: 60px;
+	margin-top: 60px;
+	margin-bottom: 40px;
 }
 #about{
     background-color: #E9E8E6;

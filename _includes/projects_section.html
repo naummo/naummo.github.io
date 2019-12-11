@@ -9,28 +9,27 @@
                     <div class="border-center"></div>
                 </div>
                 <div class="single-blog" id="macy-container">
-                {% for post in site.posts %}
+                {% for project in site.data.projects %}
                 <div class="single-blog-wrapper wow fadeIn text-left">
                     <div class="single-blog-img">
-                        <a href="#" data-toggle="modal" data-target="#blog_details-{{post.post_id}}"><img src="{{post.image}}" alt="{{post.title}}"/></a>
+                        <a href="#" data-toggle="modal" data-target="#blog_details-{{project.id}}"><img src="{{project.image}}" alt="{{project.title}}"/></a>
                     </div>
                     <div class="single-blog-content">
-                        <a href="#" data-toggle="modal" data-target="#blog_details-{{post.post_id}}"><h5>{{post.title}}</h5></a>
-                        <!-- <span>posted {{post.date | date_to_string}}</span> -->
-                        <p><a href="#" data-toggle="modal" data-target="#blog_details-{{post.post_id}}">{{ post.excerpt | strip_html | truncatewords: 18 }}</a></p>
+                        <a href="#" data-toggle="modal" data-target="#blog_details-{{project.id}}"><b>{{project.title}}</b></a>
+                        <p><a href="#" data-toggle="modal" data-target="#blog_details-{{project.id}}">{{ project.content | strip_html | truncatewords: 18 }}</a></p>
 
-                        <div class="modal fade" id="blog_details-{{post.post_id}}">
+                        <div class="modal fade" id="blog_details-{{project.id}}">
                             <div class="modal-dialog modal-lg">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h4 class="modal-title">{{ post.title }}</h4>
+                                        <h4 class="modal-title">{{ project.title }}</h4>
                                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                          <span class="fa fa-times" aria-hidden="true"></span>
                                      </button>
                                     </div>
                                     <div class="modal-body">
-                                        <p>{{ post.content }}</p>
-                                        <p>{{ post.resources }}</p>
+                                        <p>{{ project.content }}</p>
+                                        <p>{{ project.resources }}</p>
                                     </div>
                                 </div>
                             </div>
