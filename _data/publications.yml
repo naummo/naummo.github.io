@@ -1,6 +1,6 @@
-- authors: (In preparation) Naums Mogers, Lu Li, Christophe Dubach
-  title: Rewrite Rule-based Optimisation of Deep Neural Networks for Embedded Platforms
-  details: at IACM SIGPLAN 2020 International Conference on Compiler Construction (CC 2020). San Diego, 2020.
+- authors: Naums Mogers, Valentin Radu, Lu Li, Jack Turner, Michael O'Boyle, and Christophe Dubach
+  title: <u><a href="/assets/other/mogers2020directconvonmobile.pdf">Automatic Generation of Specialized Direct Convolutions for Mobile GPUs</a></u>
+  details: at General Purpose Processing Using GPU (GPGPU ’20). San Diego, 2020. <b><u><a href="/assets/other/mogers2020directconvonmobile.pdf">PDF</a></u></b>
 
 - authors: Naums Mogers, Aaron Smith, Dimitrios Vytiniotis, Michel Steuwer, Christophe Dubach, Ryota Tomioka
   title: <u><a href="/assets/other/edla2019.pdf">Towards Mapping Lift to Deep Neural Network Accelerators</a></u>
