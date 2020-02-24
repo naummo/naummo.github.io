@@ -1,5 +1,5 @@
 - title: Research Intern
-  year: Sep 2019 - Nov 2019
+  year: Sep 2019 - Dec 2019
   company: "ARM Research, Cambridge"
   desc: My project while at the ARM Architecture Research group focused on using rewriting compilation to generate optimal hardware accelerator designs for compute-intensive applications such as LSTM networks. To this end, I extended the intermediate representation and the compiler of the Lift compiler to generate HDL descriptions in the Spatial language.
   icon: assets/images/arm.png
