@@ -1,6 +1,3 @@
----
-sitemap: false
----
 <h1 class="category-title" id="academic_events">Academic Events</h1>
 {% for a in site.data.academic_events %}
 

@@ -1,6 +1,3 @@
----
-sitemap: false
----
 <h1 class="category-title" id="awards">Awards</h1>
 {% for a in site.data.awards %}
 

@@ -1,6 +1,3 @@
----
-sitemap: false
----
 <h1 class="category-title" id="education">Education</h1>
 {% for ed in site.data.education %}
 
