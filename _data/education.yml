@@ -1,0 +1,23 @@
+- title: PhD
+  topic: "Compilers and <span style=\"white-space: nowrap;\">Programming Languages</span>"
+  year: 2017 - 2022
+  university: "University of Edinburgh (supervisor: <span style=\"white-space: nowrap;\">[Christophe Dubach](https://cdubach.bitbucket.io/)</span>)<br>(co-supervisors: <span style=\"white-space:nowrap;\">[Michel Steuwer](https://michel.steuwer.info/)</span>, <span style=\"white-space:nowrap;\">[Michael O'Boyle](http://www.dcs.ed.ac.uk/home/mob/)</span> and <span style=\"white-space:nowrap;\">[Kenneth Heafield](https://kheafield.com/)</span>)"
+  desc: The focus of my research is rewrite rules-based compilation of the functional domain-specific language Lift for DNNs into OpenCL. The goal is to abstract DNNs from hardware without losing neither device-specific optimizations, nor performance-preserving portability. My approach involves expressing DNNs functionally, encoding parametrised optimizations as rewrite rules and exploring a huge search space of optimizations and their parameters. In addition to NVIDIA GPUs, I targeted ARM Mali GPUs for the yearlong collaboration with Huawei, where I cross-compiled DNN-code for HiKey.
+
+- title: MSc by Research
+  topic: "Compilers and <span style=\"white-space: nowrap;\">Programming Languages</span>"
+  year: 2016 - 2017
+  university: "University of Edinburgh <span style=\"white-space: nowrap;\">(supervisor: [Christophe Dubach](https://cdubach.bitbucket.io/))</span>"
+  desc: Within this project, I expressed a CNN in the functional language Lift and explored the optimizational space of data tiling and grouping and weighting sequentialization, exploiting coalesced memory accesses and data locality. I presented a poster on this work at the Google PhD Summit in Munich. 
+
+- title: MSc
+  topic: Artificial Intelligence
+  year: 2015 - 2016
+  university: "University of Edinburgh <span style=\"white-space: nowrap;\">(supervisor: [Christophe Dubach](https://cdubach.bitbucket.io/))</span>"
+  desc: "Dissertation title: ‘Expressing Artificial Neural Networks In A Functional Data-Parallel Language For GPU Acceleration’. The curriculum included courses in Machine Learning, Robotics and Cognitive Science."
+
+- title: BEng
+  topic: Computer Science (with a year in industry)
+  year: 2011 - 2015
+  university: "University of York <span style=\"white-space: nowrap;\">(supervisor: [Simon O'Keefe](https://www.cs.york.ac.uk/people/sok))</span>"
+  desc: "Dissertation title: ‘Memory In Simulated Swarms’. The curriculum was focused on system programming (schedulability analysis, embedded software, real-time systems, compilers) and artificial intelligence (neural computing, search algorithms, multi-agent systems, swarm intelligence)."

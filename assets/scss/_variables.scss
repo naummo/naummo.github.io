@@ -1,10 +1,15 @@
 // Typography
-@import url('https://fonts.googleapis.com/css?family=Overpass+Mono:400,700');
+@import url('https://fonts.googleapis.com/css?family=Overpass+Mono:500,900');
 $base-font-family: 'Overpass Mono', monospace;
+// @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,italic');
+// $base-font-family: 'Source Sans Pro';
 $heading-font-family: $base-font-family;
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,italic');
+$secondary-font-family: 'Source Sans Pro';
 
 // Font Sizes
-$base-font-size: 1em;
+// $base-font-size: 1em;
+$base-font-size: .9em;
 
 // Line height
 $base-line-height: 1.5;
@@ -23,7 +28,8 @@ $white-color: #fff;
 $black-color: #000;
 $blue-color: #0086B3;
 $dark-gray-color: #333;
-$medium-gray-color: #999;
+// $medium-gray-color: #999;
+$medium-gray-color: #777;
 $light-gray-color: #ccc;
 
 // Font Colors

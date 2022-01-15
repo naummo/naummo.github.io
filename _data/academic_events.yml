@@ -1,0 +1,23 @@
+- title: Google PhD Summit
+  year: 2019, 2017
+  where: Google Munich
+  desc: Presented posters on optimizing compilation and FPGA design generation.
+  icon: assets/images/google.png
+
+- title: ARM Research Summit
+  year: 2019
+  where: ARM, Austin
+  desc: Gave a talk on functional interfaces as a universal abstraction layer between applications and hardware accelerators.
+  icon: assets/images/arm.png
+
+- title: Facebook PhD London Tech Talk
+  year: 2018
+  where: Facebook London
+  desc: Attended a PhD Open House talk and a panel about research at Facebook.
+  icon: assets/images/facebook.png
+
+- title: Google Inside Look
+  year: 2017
+  where: Google London
+  desc: Attended a two-day program of talks & workshops with 30 other students from across Europe, Middle East and Africa.
+  icon: assets/images/google.png

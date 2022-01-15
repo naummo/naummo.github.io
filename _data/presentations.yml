@@ -1,0 +1,64 @@
+- year: Oct'21
+  type: Talk
+  title: Mapping Parallelism in Lift through Constraint Satisfaction
+  icon: fa-sticky-note
+  desc: "Systems, PL and Compilers Group at <span style=\"white-space:nowrap;\">McGill University</span>"
+  link:
+  link_text:
+
+- year: Dec'19
+  type: Poster
+  title: Accelerator Design Optimization Using a Functional Data-Parallel Language
+  icon: fa-sticky-note
+  desc: Google Compiler and Programming Language Summit'19, Munich, Germany
+  link: /assets/other/Google_summit_2019_poster_a0.pdf
+  link_text: PDF
+
+- year: Sep'19
+  type: Talk
+  title: Functional Interface for Performance Portability on Parallel Accelerators
+  icon: fa-comment
+  desc: "ARM Research Summit: \"Renegotiating Accelerator Abstractions (Post-Moore's Law)\" workshop. Austin, Texas, USA"
+  link: /assets/other/ARM-Research-Summit-2019.pdf
+  link_text: PDF
+
+- year: Jan'19
+  type: Talk
+  title: Towards Mapping Lift to Deep Neural Network Accelerators
+  icon: fa-comment
+  desc: Workshop on Emerging Deep Learning Accelerators, HiPEAC, Valencia, Spain
+  link: /assets/other/EDLA-2019.pdf
+  link_text: PDF
+  
+- year: Apr'18
+  type: Tutorial
+  title: "Lift: Performance Stencil Code Generation with Lift"
+  icon: fa-comment
+  desc: International Symposium on Performance Analysis of Systems and Software (ISPASS), Belfast, UK
+  link: http://www.lift-project.org/ispass2018
+  external_link: true
+  link_text: Tutorial
+  
+- year: Dec'17
+  type: Poster
+  title: Optimization of Neural Computations Using a Functional Data-Parallel Language
+  icon: fa-sticky-note
+  desc: Google Compiler and Programming Language Summit'17, Munich, Germany
+  link: /assets/other/Naums_Mogers_Research_Poster.pdf
+  link_text: PDF
+  
+- year: Oct'17
+  type: Invited talk
+  title: Computational Optimization of CNNs Using a Functional Data-Parallel Language
+  icon: fa-comment
+  desc: "Glasgow Systems Seminar, <span style=\"white-space:nowrap;\">University of Glasgow</span>, UK"
+  link:
+  link_text:
+  
+- year: Jun'17
+  type: Poster
+  title: Optimization of Neural Computations Using a Functional Data-Parallel Language
+  icon: fa-sticky-note
+  desc: "The Scottish Informatics and Computer Science Alliance (SISCA), <span style=\"white-space:nowrap;\">University of Dundee</span>, UK"
+  link: /assets/other/Naums_Mogers_Research_Poster.pdf
+  link_text: PDF

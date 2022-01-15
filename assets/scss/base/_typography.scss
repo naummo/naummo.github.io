@@ -16,36 +16,42 @@ h6 {
   font-size: $base-font-size;
   line-height: $heading-line-height;
   margin: $small-spacing 0 $small-spacing 0;
-  font-weight: 700;
+  font-weight: 900;
 }
 
 h1 {
-  font-size: rem(30);
+  font-size: rem(28);
 }
 
 h2 {
-  font-size: rem(26);
-}
-
-h3 {
   font-size: rem(24);
 }
 
+h3 {
+  font-size: rem(22);
+}
+
 h4 {
-  font-size: rem(20);
+  font-size: rem(18);
 }
 
 h5,
 h6 {
-  font-size: rem(16);
+  font-size: rem(14);
 }
 
 p {
   margin: 0 0 $small-spacing;
 
   &.lead {
-    font-size: rem(22);
-    font-weight: 300;
+    font-size: rem(21);
+    font-weight: 400;
+  }
+}
+@media (max-width: 600px) {
+  p.lead {
+    font-size: rem(18);
+    font-weight: 400;
   }
 }
 
@@ -59,6 +65,11 @@ a {
   &:hover {
     color: shade($action-color, 25%);
   }
+}
+
+i {
+  font-family: $secondary-font-family;
+  font-style: italic;
 }
 
 hr {

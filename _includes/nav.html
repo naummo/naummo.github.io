@@ -1,10 +1,33 @@
 
 <nav class="nav">
   <div class="container">
-    <h1 class="logo"><a href="{{ '/' | prepend: site.baseurl | prepend: site.url }}">{{ site.title_left }}<span>{{ site.title_right }}</span></a></h1>
-    <ul class="navbar">
-      <li><a href="{{ '/about' | prepend: site.baseurl | prepend: site.url }}">About me</a></li>
-      <li><a href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" target="_blank">RSS</a></li>
-    </ul>
+    <div class="container__row">
+      <div class="container__col-tm-12 container__col-sm-12 container__col-md-4 logo-container">
+        <h1 class="logo">
+          <a href="{{ '/' | prepend: site.baseurl | prepend: site.url }}" class="js-scroll-trigger">{{ site.title_left }}<span>{{ site.title_right }}</span></a>
+        </h1>
+        <div class="clearfix">
+          <ul class="list-inline home-social-share float-left">
+            <li class="list-inline-item"><a href="{{ site.url }}/assets/other/CV_Naums_Mogers.pdf" class="cv-button"><span style="position: absolute; top: 0.08em; left: 0.19em">cv</span></a></li>
+            <li class="list-inline-item"><a href="mailto:naums.mogers@gmail.com"><i class="fa fa-envelope" aria-hidden="true" style="margin-left: -0.05em"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.linkedin.com/in/naumsmogers/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            <li class="list-inline-item"><a href="https://github.com/naummo"><i class="fa fa-github" aria-hidden="true" style="margin-left: -0.05em"></i></a></li>
+            <!-- <li class="list-inline-item"><a href="https://twitter.com/naummo"><i class="fa fa-twitter" aria-hidden="true"></i></a></li> -->
+          </ul>
+        </div>
+      </div>
+      <ul class="navbar container__col-tm-12 navbar container__col-sm-12 container__col-md-8">
+        <div class="container__row nested">
+          <li class="container__col-tm-6 container__col-sm-4 container__col-md-6 container__col-lg-4 cell-0"><a href="#education" class="js-scroll-trigger">Education</a></li>
+          <li class="container__col-tm-6 container__col-sm-4 container__col-md-6 container__col-lg-4 cell-1"><a href="#research_internships" class="js-scroll-trigger">Internships</a></li>
+          <li class="container__col-tm-6 container__col-sm-4 container__col-md-6 container__col-lg-4 cell-2"><a href="#publications" class="js-scroll-trigger">Publications</a></li>
+          <li class="container__col-tm-6 container__col-sm-4 container__col-md-6 container__col-lg-4 cell-3"><a href="#awards" class="js-scroll-trigger">Awards</a></li>
+          <li class="container__col-tm-6 container__col-sm-4 container__col-md-6 container__col-lg-4 cell-4"><a href="#work" class="js-scroll-trigger">Work</a></li>
+          <li class="container__col-tm-6 container__col-sm-4 container__col-md-6 container__col-lg-4 cell-5"><a href="#teaching" class="js-scroll-trigger">Teaching</a></li>
+          <li class="container__col-tm-6 container__col-sm-4 container__col-md-6 container__col-lg-4 cell-6"><a href="#presentations" class="js-scroll-trigger">Presentations</a></li>
+          <li class="container__col-tm-6 container__col-sm-4 container__col-md-6 container__col-lg-4 cell-7"><a href="#contacts" class="js-scroll-trigger">Contacts</a></li>
+        </div>
+      </ul>
+    </div>
   </div>
 </nav>

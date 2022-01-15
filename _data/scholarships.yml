@@ -1,0 +1,11 @@
+- year: 2016 - 2020
+  where: University of Edinburgh
+  title: CDT Pervasive Parallelism
+  icon: fa-euro
+  desc: "Four-year PhD scholarship sponsored by the <span style=\"white-space:nowrap;\">EPSRC (UK)</span>."
+
+- year: 2014
+  where: University of York
+  title: "Public Engagement: Raspberry Pi project"
+  icon: fa-euro
+  desc: Funding to design and implement a microcontroller programming project for science education in schools.
