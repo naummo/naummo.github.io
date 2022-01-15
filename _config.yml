@@ -1,8 +1,8 @@
 # Site settings
 title_left    : "Naums "
 title_right   : "Mogers" # default: ""
-description   : "Minimalist Jekyll theme for technical writing blog."
-keywords      : "PhD candidate in programming languages and deep learning at the University of Edinburgh"
+description   : "PhD candidate in programming languages and deep learning at the University of Edinburgh"
+keywords      : "PhD candidate, PhD student, deep learning, programming languages, graduate student, compilations, compilers, functional programming, University of Edinburgh"
 url           : https://naumsmogers.me # site url
 baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
 cover         : "" # image uri like logo/cover image for site seo
