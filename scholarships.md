@@ -1,3 +1,6 @@
+---
+sitemap: false
+---
 <h1 class="category-title" id="scholarships">Scholarships</h1>
 {% for s in site.data.scholarships %}
 

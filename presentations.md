@@ -1,3 +1,6 @@
+---
+sitemap: false
+---
 <h1 class="category-title" id="presentations">Presentations</h1>
 {% for p in site.data.presentations %}
 

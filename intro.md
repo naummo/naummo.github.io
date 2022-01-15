@@ -1,3 +1,6 @@
+---
+sitemap: false
+---
 <p class="lead">I am a <span style="white-space:nowrap;">PhD candidate</span> in <span style="white-space:nowrap;">programming languages</span> and <span style="white-space:nowrap;">deep learning</span> at the <a href="http://www.ed.ac.uk/">University of Edinburgh</a>.</p>
 
 My PhD is supervised by <span style="white-space:nowrap;">[Christophe Dubach](https://cdubach.bitbucket.io/)</span> and co-supervised by <span style="white-space:nowrap;">[Michel Steuwer](https://michel.steuwer.info/)</span>, <span style="white-space:nowrap;">[Michael O'Boyle](http://www.dcs.ed.ac.uk/home/mob/)</span> and <span style="white-space:nowrap;">[Kenneth Heafield](https://kheafield.com/)</span>.

@@ -1,3 +1,6 @@
+---
+sitemap: false
+---
 <h1 class="category-title" id="work">Work Experience</h1>
 {% for w in site.data.work %}
 
