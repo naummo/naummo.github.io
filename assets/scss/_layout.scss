@@ -94,26 +94,61 @@ hr {
   font-size: $base-font-size * 1.45;
 }
 
-.home-social-share a {
-  // border: 1px solid #7e7e7e;
-  width: 30px;
-  height: 30px;
-  border-radius: 40px;
-  display: block;
-  position: relative;
-  text-align: center;
-  padding-top: 0.15em;
-  color: #7e7e7e;
-	-webkit-transition: .1s all;
-	transition: .1s all;
-}
+.home-social-share {
+  a {
+    // border: 1px solid #7e7e7e;
+    width: 30px;
+    height: 30px;
+    border-radius: 40px;
+    display: block;
+    position: relative;
+    text-align: center;
+    // padding-top: 0.15em;
+    color: #7e7e7e;
+    -webkit-transition: .1s all;
+    transition: .1s all;
 
-.home-social-share a:hover {
-  // border-color: #0e0e0e;
-  // background:#0e0e0e;
-  border-color: $blue-color;
-  background: $blue-color;
-  color: #ffffff;
+    .fa {
+      vertical-align: text-bottom;
+      font-size: 20px;
+      line-height: 20px;
+      padding-bottom: 1px;
+    }
+  }  
+
+  @media (min-width: 600px) {
+    a {
+      padding-right: 1px;
+    }
+  }
+
+  a:hover {
+    // border-color: #0e0e0e;
+    // background:#0e0e0e;
+    border-color: $blue-color;
+    background: $blue-color;
+    color: #ffffff;
+  }
+
+  .email-button:hover {
+    background: #CE493B;
+    border-color: #CE493B;
+  }
+
+  .linkedin-button:hover {
+    background: #0A66C2;
+    border-color: #0A66C2;
+  }
+
+  .github-button {
+    width: 29.16px; 
+    height: 29.16px;
+  }
+
+  .github-button:hover {
+    background: #171515;
+    border-color: #171515;
+  }
 }
 
 .section-container {
