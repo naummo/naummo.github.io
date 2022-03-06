@@ -3,21 +3,25 @@
   journal: "ACM SIGPLAN 2022 International Conference on <span style=\"white-space:nowrap;\">Compiler Construction (CC)</span>"
   year: 2022
   pdf: /assets/other/CC22_liftpar.pdf
+  git: https://gitlab.com/naummo/liftpar-cc-2022-artifact
 
 - authors: "<span style=\"white-space:nowrap;\"><strong>Naums Mogers</strong></span>, <span style=\"white-space:nowrap;\">Valentin Radu</span>, <span style=\"white-space:nowrap;\">Lu Li</span>, <span style=\"white-space:nowrap;\">Jack Turner</span>, <span style=\"white-space:nowrap;\">Michael O'Boyle</span>, <span style=\"white-space:nowrap;\">Christophe Dubach</span>"
   title: Automatic Generation of Specialized Direct Convolutions for Mobile GPUs
   journal: "Proceedings of the 13th Annual Workshop on General Purpose Processing using Graphics Processing Unit (GPGPU)"
   year: 2020
   pdf: /assets/other/mogers2020directconvonmobile.pdf
+  git:
 
 - authors: "<span style=\"white-space:nowrap;\"><strong>Naums Mogers</strong></span>, <span style=\"white-space:nowrap;\">Aaron Smith</span>, <span style=\"white-space:nowrap;\">Dimitrios Vytiniotis</span>, <span style=\"white-space:nowrap;\">Michel Steuwer</span>, <span style=\"white-space:nowrap;\">Christophe Dubach</span>, <span style=\"white-space:nowrap;\">Ryota Tomioka</span>"
   title: Towards Mapping Lift to Deep Neural Network Accelerators
   journal: "Workshop on Emerging Deep Learning Accelerators <span style=\"white-space:nowrap;\">(EDLA) @ HiPEAC</span>"
   year: 2019
   pdf: /assets/other/edla2019.pdf
+  git:
 
 - authors: "<span style=\"white-space:nowrap;\"><strong>Naums Mogers</strong></span>, <span style=\"white-space:nowrap;\">Martin Trefzer</span>, <span style=\"white-space:nowrap;\">Dimitris Lagos</span>"
   title: Sensor Organism
   journal: "C. Paterson (Ed.), Proceedings of the Eighth York Doctoral Symposium on Computer Science & Electronics (p. 88). York: The University of York"
   year: 2015
   pdf:
+  git:

@@ -7,13 +7,22 @@
     </div>    
     <div class="two-block-row-container">
         <div class="post-meta">{{ p.authors }}</div>
-        {% if p.pdf != nil %}
+        {% if p.pdf != nil or p.git != nil %}
             <div class="button-container">
-                <a href="{{ site.baseurl }}{{ p.pdf }}">
-                    <div class="button">
-                        PDF
-                    </div>
-                </a>
+                {% if p.pdf != nil %}
+                    <a href="{{ site.baseurl }}{{ p.pdf }}">
+                        <div class="button" style="display: inline-block">
+                            PDF
+                        </div>
+                    </a>
+                {% endif %}
+                {% if p.git != nil %}
+                    <a href="{{ p.git }}">
+                        <div class="button" style="display: inline-block">
+                            artifact
+                        </div>
+                    </a>
+                {% endif %}
             </div>
         {% endif %}
     </div>
