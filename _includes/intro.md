@@ -1,4 +1,12 @@
-<p class="lead">I am a <span style="white-space:nowrap;">PhD candidate</span> in <span style="white-space:nowrap;">programming languages</span> and <span style="white-space:nowrap;">deep learning</span> at the <a href="http://www.ed.ac.uk/">University of Edinburgh</a>.</p>
+<div style="display: flex; column-gap: 1em; margin-bottom: 1em">
+    <span style="display: inline-block; margin-top: auto">
+        <p class="lead" style="margin-block-end: 0">I am a <span style="white-space:nowrap;">PhD candidate</span> in <span style="white-space:nowrap;">programming languages</span> and <span style="white-space:nowrap;">deep learning</span> at the <a href="http://www.ed.ac.uk/">University of Edinburgh</a>.</p>
+    </span>
+    <span style="display: contents">
+        <img src="{{site.url}}/assets/images/me.png" alt="Naums Mogers" height="75" width="75"
+            style="border-radius: 50px;">
+    </span>
+</div>
 
 My PhD is supervised by <span style="white-space:nowrap;">[Christophe Dubach](https://cdubach.bitbucket.io/)</span> and co-supervised by <span style="white-space:nowrap;">[Michel Steuwer](https://michel.steuwer.info/)</span>, <span style="white-space:nowrap;">[Michael O'Boyle](http://www.dcs.ed.ac.uk/home/mob/)</span> and <span style="white-space:nowrap;">[Kenneth Heafield](https://kheafield.com/)</span>.
 

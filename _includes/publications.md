@@ -10,14 +10,14 @@
         {% if p.pdf != nil or p.git != nil %}
             <div class="button-container">
                 {% if p.pdf != nil %}
-                    <a href="{{ site.baseurl }}{{ p.pdf }}">
+                    <a href="{{ site.baseurl }}{{ p.pdf }}" class="a-button">
                         <div class="button" style="display: inline-block">
                             PDF
                         </div>
                     </a>
                 {% endif %}
                 {% if p.git != nil %}
-                    <a href="{{ p.git }}">
+                    <a href="{{ p.git }}" class="a-button">
                         <div class="button" style="display: inline-block">
                             artifact
                         </div>
