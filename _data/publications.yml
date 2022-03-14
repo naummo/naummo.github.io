@@ -1,5 +1,5 @@
 - authors: "<span style=\"white-space:nowrap;\"><strong>Naums Mogers</strong></span>, <span style=\"white-space:nowrap;\">Lu Li</span>, <span style=\"white-space:nowrap;\">Valentin Radu</span>, <span style=\"white-space:nowrap;\">Christophe Dubach</span>"
-  title: Mapping Parallelism in a Functional IR through Constraint Satisfaction
+  title: "Mapping Parallelism in a Functional IR through Constraint Satisfaction: A Case Study on Convolution for Mobile GPUs"
   journal: "ACM SIGPLAN 2022 International Conference on <span style=\"white-space:nowrap;\">Compiler Construction (CC)</span>"
   year: 2022
   pdf: /assets/other/CC22_liftpar.pdf
