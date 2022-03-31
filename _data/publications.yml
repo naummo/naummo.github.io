@@ -4,6 +4,8 @@
   year: 2022
   pdf: /assets/other/CC22_liftpar.pdf
   git: https://gitlab.com/naummo/liftpar-cc-2022-artifact
+  slides: /assets/other/CC22_talk.pdf
+  video: https://www.youtube.com/watch?v=2LsQZoWTDQk
 
 - authors: "<span style=\"white-space:nowrap;\"><strong>Naums Mogers</strong></span>, <span style=\"white-space:nowrap;\">Valentin Radu</span>, <span style=\"white-space:nowrap;\">Lu Li</span>, <span style=\"white-space:nowrap;\">Jack Turner</span>, <span style=\"white-space:nowrap;\">Michael O'Boyle</span>, <span style=\"white-space:nowrap;\">Christophe Dubach</span>"
   title: Automatic Generation of Specialized Direct Convolutions for Mobile GPUs
@@ -11,6 +13,8 @@
   year: 2020
   pdf: /assets/other/mogers2020directconvonmobile.pdf
   git:
+  slides:
+  video:
 
 - authors: "<span style=\"white-space:nowrap;\"><strong>Naums Mogers</strong></span>, <span style=\"white-space:nowrap;\">Aaron Smith</span>, <span style=\"white-space:nowrap;\">Dimitrios Vytiniotis</span>, <span style=\"white-space:nowrap;\">Michel Steuwer</span>, <span style=\"white-space:nowrap;\">Christophe Dubach</span>, <span style=\"white-space:nowrap;\">Ryota Tomioka</span>"
   title: Towards Mapping Lift to Deep Neural Network Accelerators
@@ -18,6 +22,8 @@
   year: 2019
   pdf: /assets/other/edla2019.pdf
   git:
+  slides:
+  video:
 
 - authors: "<span style=\"white-space:nowrap;\"><strong>Naums Mogers</strong></span>, <span style=\"white-space:nowrap;\">Martin Trefzer</span>, <span style=\"white-space:nowrap;\">Dimitris Lagos</span>"
   title: Sensor Organism
@@ -25,3 +31,5 @@
   year: 2015
   pdf:
   git:
+  slides:
+  video:
