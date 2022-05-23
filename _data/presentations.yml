@@ -1,8 +1,16 @@
+- year: Apr'22
+  type: Talk
+  title: "Mapping Parallelism in Lift through Constraint Satisfaction: A Case Study On Convolution for Mobile GPUs"
+  icon: fa-sticky-note
+  desc: "International Conference on Compiler Construction (CC), remotely"
+  link: /assets/other/CC22_presentation.pdf
+  link_text: PDF
+
 - year: Oct'21
   type: Talk
   title: Mapping Parallelism in Lift through Constraint Satisfaction
   icon: fa-sticky-note
-  desc: "Systems, PL and Compilers Group at <span style=\"white-space:nowrap;\">McGill University</span>"
+  desc: "Systems, PL and Compilers Group at <span style=\"white-space:nowrap;\">McGill University</span>, Canada"
   link:
   link_text:
 
