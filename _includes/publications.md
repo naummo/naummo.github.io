@@ -9,10 +9,17 @@
         <div class="post-meta">{{ p.authors }}</div>
         {% if p.pdf != nil or p.git != nil %}
             <div class="button-container">
-                {% if p.pdf != nil %}
-                    <a href="{{ site.baseurl }}{{ p.pdf }}" class="a-button">
+                {% if p.slides != nil %}
+                    <a href="{{ p.slides }}" class="a-button">
                         <div class="button" style="display: inline-block">
-                            PDF
+                            slides
+                        </div>
+                    </a>
+                {% endif %}
+                {% if p.video != nil %}
+                    <a href="{{ p.video }}" class="a-button">
+                        <div class="button" style="display: inline-block">
+                            video
                         </div>
                     </a>
                 {% endif %}
@@ -23,17 +30,10 @@
                         </div>
                     </a>
                 {% endif %}
-                {% if p.git != nil %}
-                    <a href="{{ p.slides }}" class="a-button">
+                {% if p.pdf != nil %}
+                    <a href="{{ site.baseurl }}{{ p.pdf }}" class="a-button">
                         <div class="button" style="display: inline-block">
-                            slides
-                        </div>
-                    </a>
-                {% endif %}
-                {% if p.git != nil %}
-                    <a href="{{ p.video }}" class="a-button">
-                        <div class="button" style="display: inline-block">
-                            video
+                            PDF
                         </div>
                     </a>
                 {% endif %}
