@@ -1,6 +1,6 @@
 - title: PhD
   topic: "Compilers and <span style=\"white-space: nowrap;\">Programming Languages</span>"
-  year: 2017 - 2022
+  year: 2017 - 2023
   university: "University of Edinburgh (supervisor: <span style=\"white-space: nowrap;\">[Christophe Dubach](https://cdubach.bitbucket.io/)</span>)<br>(co-supervisors: <span style=\"white-space:nowrap;\">[Michel Steuwer](https://michel.steuwer.info/)</span>, <span style=\"white-space:nowrap;\">[Michael O'Boyle](http://www.dcs.ed.ac.uk/home/mob/)</span> and <span style=\"white-space:nowrap;\">[Kenneth Heafield](https://kheafield.com/)</span>)"
   desc: The focus of my research is rewrite rules-based compilation of the functional domain-specific language Lift for DNNs into OpenCL. The goal is to abstract DNNs from hardware without losing neither device-specific optimizations, nor performance-preserving portability. My approach involves expressing DNNs functionally, encoding parametrised optimizations as rewrite rules and exploring a huge search space of optimizations and their parameters. In addition to NVIDIA GPUs, I targeted ARM Mali GPUs for the yearlong collaboration with Huawei, where I cross-compiled DNN-code for HiKey.
 
