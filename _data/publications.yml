@@ -1,3 +1,12 @@
+- authors: "<span style=\"white-space:nowrap;\"><strong>Naums Mogers</strong></span>"
+  title: "Guided Rewriting and Constraint Satisfaction for Parallel GPU Code Generation"
+  journal: "Doctoral thesis"
+  year: 2023
+  pdf: /assets/other/doctoral_thesis_mogers.pdf
+  git:
+  slides: /assets/other/viva_intro.pdf
+  video:
+
 - authors: "<span style=\"white-space:nowrap;\"><strong>Naums Mogers</strong></span>, <span style=\"white-space:nowrap;\">Lu Li</span>, <span style=\"white-space:nowrap;\">Valentin Radu</span>, <span style=\"white-space:nowrap;\">Christophe Dubach</span>"
   title: "Mapping Parallelism in a Functional IR through Constraint Satisfaction: A Case Study on Convolution for Mobile GPUs"
   journal: "ACM SIGPLAN 2022 International Conference on <span style=\"white-space:nowrap;\">Compiler Construction (CC)</span>"
