@@ -8,7 +8,7 @@
     </span>
 </div>
 
-My interests and experience are compilers (optimising compilation for deep learning) and programming languages (expressive type systems are great).
+My interests are compilers (optimising compilation for deep learning), programming languages (expressive type systems are great) and deep learning.
 Broadly, I am in love with complex systems: the [MLIR](https://mlir.llvm.org/) ecosystem is a good example in PL, and deep neural architectures -- in AI.
 
 My PhD thesis (2023) ([PDF](https://naumsmogers.me/assets/other/doctoral_thesis_mogers.pdf), [slides](https://naumsmogers.me/assets/other/viva_intro.pdf)) is in programming languages and compilers for deep learning.
