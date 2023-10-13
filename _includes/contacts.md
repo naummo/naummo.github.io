@@ -2,5 +2,5 @@
 
 **naums.mogers**`(at)`**gmail.com**
 
-**naums.mogers**`(at)`**ed.ac.uk**
+**naumsmogers**`(at)`**google.com**
 
