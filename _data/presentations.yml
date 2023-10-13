@@ -1,3 +1,11 @@
+- year: May'23
+  type: PhD Viva
+  title: "Guided Rewriting and Constraint Satisfaction for Parallel GPU Code Generation"
+  icon: fa-sticky-note
+  desc: "University of Edinburgh"
+  link: /assets/other/viva_intro.pdf
+  link_text: PDF
+
 - year: Apr'22
   type: Talk
   title: "Mapping Parallelism in Lift through Constraint Satisfaction: A Case Study On Convolution for Mobile GPUs"
@@ -5,7 +13,7 @@
   desc: "International Conference on Compiler Construction (CC), remotely"
   link: /assets/other/CC22_talk.pdf
   link_text: PDF
-
+  
 - year: Oct'21
   type: Talk
   title: Mapping Parallelism in Lift through Constraint Satisfaction
