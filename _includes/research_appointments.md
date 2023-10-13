@@ -1,4 +1,4 @@
-<h1 class="category-title" id="research_internships">Visits & Internships</h1>
+<h1 class="category-title" id="research_internships">Research Collaborations</h1>
 {% for i in site.data.research_appointments %}
 
 <article class="post-item">
