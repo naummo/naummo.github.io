@@ -9,7 +9,7 @@
 </div>
 
 My interests are **compilers** (optimising compilation for deep learning), **programming languages** (expressive type systems are great) and **deep learning**.
-Broadly, I am in love with complex systems: the [MLIR](https://mlir.llvm.org/) ecosystem is a good example in PL, and deep neural architectures -- in AI.
+Broadly, I love complex systems: the [MLIR](https://mlir.llvm.org/) ecosystem is a good example in PL, and deep neural architectures -- in AI.
 
 My **PhD thesis** (2023) ([PDF](https://naumsmogers.me/assets/other/doctoral_thesis_mogers.pdf), [slides](https://naumsmogers.me/assets/other/viva_intro.pdf)) is in programming languages and compilers for deep learning.
 I did my PhD at the <span style="white-space:nowrap;">[University of Edinburgh](https://www.ed.ac.uk/)</span> ([ICSA](https://web.inf.ed.ac.uk/icsa/)), co-supervised by <span style="white-space:nowrap;">[Christophe Dubach](https://cdubach.bitbucket.io/)</span>, <span style="white-space:nowrap;">[Michel Steuwer](https://michel.steuwer.info/)</span>, <span style="white-space:nowrap;">[Michael O'Boyle](http://www.dcs.ed.ac.uk/home/mob/)</span> and <span style="white-space:nowrap;">[Kenneth Heafield](https://kheafield.com/)</span>.
