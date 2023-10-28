@@ -448,8 +448,11 @@ hr {
 }
 
 .button-container {
-  float: right;
+  // float: right;
   width: fit-content;
+  margin-top: 0.5em;
+  display: block;
+  margin-bottom: 0.5em;
 }
 
 .post-title {
