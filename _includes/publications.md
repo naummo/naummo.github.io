@@ -9,6 +9,13 @@
     <div class="post-meta"><em>{{ p.journal }}, {{ p.year }}</em></div>
     {% if p.pdf != nil or p.git != nil or p.slides != nil or p.video != nil %}
         <div class="button-container">
+            {% if p.pdf != nil %}
+                <a href="{{ site.baseurl }}{{ p.pdf }}" class="a-button">
+                    <div class="button" style="display: inline-block">
+                        PDF
+                    </div>
+                </a>
+            {% endif %}
             {% if p.slides != nil %}
                 <a href="{{ p.slides }}" class="a-button">
                     <div class="button" style="display: inline-block">
@@ -27,13 +34,6 @@
                 <a href="{{ p.git }}" class="a-button">
                     <div class="button" style="display: inline-block">
                         artifact
-                    </div>
-                </a>
-            {% endif %}
-            {% if p.pdf != nil %}
-                <a href="{{ site.baseurl }}{{ p.pdf }}" class="a-button">
-                    <div class="button" style="display: inline-block">
-                        PDF
                     </div>
                 </a>
             {% endif %}
