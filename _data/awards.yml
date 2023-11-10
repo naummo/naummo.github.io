@@ -23,23 +23,6 @@
   title: York Award
   desc: The York Award is a programme of personal and skills development offered by the University of York in partnership with leading public, private and voluntary sector organisations.
 
-- year: 2019, 2017
-  where: Google Munich
-  title: Accepted to Google Compiler and Programming Language Summit
-  desc: Presented posters on optimizing compilation and FPGA design generation.
-
-- year: 2018
-  where: Facebook London
-  title: Accepted to Facebook PhD London Tech Talk
-  desc: Attended a PhD Open House talk and a panel about research at Facebook.
-  icon: assets/images/facebook.png
-
-
-- year: 2017
-  where: Google London (31 selected out of thousands of applicants)
-  title: Accepted to Google Inside Look Program
-  desc:
-
 - year: 2014
   where: University of York
   title: "Public Engagement: Raspberry Pi Project Funding"
