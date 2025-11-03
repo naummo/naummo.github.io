@@ -1,6 +1,6 @@
 <div style="display: flex; column-gap: 1em; margin-bottom: 1em">
     <span style="display: inline-block; margin-top: auto; margin-bottom: auto;">
-        <p class="lead" style="margin-block-end: 0">I am a <span style="white-space:nowrap;">Senior Software Engineer</span> at Google working on the XLA TPU compiler.</p>
+        <p class="lead" style="margin-block-end: 0">I am a <span style="white-space:nowrap;">Senior Software Engineer</span> at Google.</p>
     </span>
     <span style="display: contents">
         <img src="{{site.url}}/assets/images/me.png" alt="Naums Mogers" height="75" width="75"
@@ -9,7 +9,8 @@
 </div>
 
 My interests are **compilers** (optimising compilation for deep learning), **programming languages** (expressive type systems are great) and **deep learning**.
-At Google, I work on compilers for Google TPUs.
+
+At Google, I work on the XLA TPU compiler.
 Specifically, I contribute to the MLIR-based Mosaic custom kernel language (a Pallas backend for TPUs), leveraging the block-centric programming model for sparse computations.
 This work has interesting challenges such as balancing expressive power of a DSL -- providing the user with explicit low-level control -- with productivity features, i.e. a smart compiler.
 Finding the right abstraction levels for each of these aspects is what determines the success of a programming language.
