@@ -2,7 +2,7 @@
     <span style="display: inline-block; margin-top: auto; margin-bottom: auto;">
         <p class="lead" style="margin-block-end: 0">I am a <span style="white-space:nowrap;">Senior Software Engineer</span> at Google.</p>
     </span>
-    <span style="display: contents">
+    <span style="margin-left: auto;">
         <img src="{{site.url}}/assets/images/me.png" alt="Naums Mogers" height="75" width="75"
             style="border-radius: 50px;">
     </span>
